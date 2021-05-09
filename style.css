@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+  overflow: hidden;
+  min-height: 200vh;
+}
+
+.pop-up {
+  height: 100px;
+  width: 50%;
+  border-radius: 10px;
+  margin: 5px auto;
+  position: relative;
+}
+
+.pop-up div {
+  color: white;
+  line-height: 100px;
+  padding-left: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.close {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 5px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+}
+
+#one {
+  background: salmon;
+}
+
+#two {
+  background: orange;
+}
+
+#three {
+  background: skyblue;
+}
+
+#four {
+  background: #405CBF;
+}
+
+#five {
+  background: blue;
+  position: relative;
+}
+
+#five:before {
+  content: "";
+  display: none;
+  background: blue;
+  height: 100px;
+  width: 50%;
+  position: absolute;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#five:after {
+  content: "";
+  display: none;
+  background: blue;
+  height: 100px;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#six {
+  background: darkblue;
+  position: relative;
+}
+
+#six span {
+  background: darkblue;
+  height: 100px;
+  width: 10%;
+  border-radius: 0%;
+  top: 0;
+  position: absolute;
+}
+
+#seven {
+  background: #030B4D;
+}
+
+#last {
+  background: black;
+}
